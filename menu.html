@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Our Menu</title>
+    <link href="index.css" rel="stylesheet" />
+    <link href="menu.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="logo">
+          <img src="https://placehold.co/200x80?text=ShopLogo" alt="shop-logo" class="shop-logo" />
+        </div>
+        <div class="nav-right">
+          <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Our Menu</a></li>
+            <li><a href="#offers">Our Offers</a></li>
+            <li><a href="aboutus.html">Know us More</a></li>
+            <li><a href="order.html">Your Order</a></li>
+            <li><a href="cart.html">Cart (0)</a></li>
+          </ul>
+          <div class="login">
+            <a href="signin.html">Login/signup</a>
+          </div>
+        </div>
+        <div class="right-hamburger">
+          <img src="image.png" alt="hamburger" height="50px" width="50px" />
+        </div>
+      </nav>
+    </header>
+    <section class="menu-heading">
+      <h3 class="overlay">Our Menu</h3>
+    </section>
+    <section class="categories-btn">
+      <input class="search-input" placeholder="What do you want to search..." />
+      <div class="button-group">
+        <div><button class="active">All</button></div>
+        <div><a href="#beverages"><button>Beverages</button></a></div>
+        <div><a href="#main-course"><button>Main Course</button></a></div>
+        <div><a href="#combos"><button>Combos</button></a></div>
+      </div>
+    </section>
+    <section>
+      <div class="ourmenu-category" id="search-items">
+        <div class="ourmenu-items"></div>
+      </div>
+      <div class="ourmenu-category" id="best-seller">
+        <div class="ourmenu-category-header">
+          <h3>Best Seller</h3>
+        </div>
+        <div class="ourmenu-items"></div>
+      </div>
+      <div class="ourmenu-category" id="trending">
+        <div class="ourmenu-category-header">
+          <h3>Trending</h3>
+        </div>
+        <div class="ourmenu-items"></div>
+      </div>
+      <div class="ourmenu-category" id="starter">
+        <div class="ourmenu-category-header">
+          <h3>Starter</h3>
+        </div>
+        <div class="ourmenu-items"></div>
+      </div>
+      <div class="ourmenu-category" id="beverages">
+        <div class="ourmenu-category-header">
+          <h3>Beverages</h3>
+        </div>
+        <div class="ourmenu-items"></div>
+      </div>
+      <div class="ourmenu-category" id="main-course">
+        <div class="ourmenu-category-header">
+          <h3>Main Course</h3>
+        </div>
+        <div class="ourmenu-items"></div>
+      </div>
+    </section>
+    <section class="combo-comparison" id="combos">
+      <div class="container">
+        <h2>Combo</h2>
+        <table class="comparison-table">
+          <thead>
+            <tr>
+              <th rowspan="2">Combo Size</th>
+              <th rowspan="2">Items</th>
+              <th colspan="2">Price</th>
+              <th rowspan="2">Add to Cart</th>
+            </tr>
+            <tr>
+              <th>Original</th>
+              <th>Discounted</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Small</td>
+              <td>
+                <div class="item"><p>Item Name 1</p></div>
+                <div class="item"><p>Item Name 2</p></div>
+                <div class="item"><p>Item Name 3</p></div>
+              </td>
+              <td><strike>$30</strike></td>
+              <td>$25</td>
+              <td><button class="cta-btn">Add to Cart</button></td>
+            </tr>
+            <tr>
+              <td>Medium</td>
+              <td>
+                <div class="item"><p>Item Name 1</p></div>
+                <div class="item"><p>Item Name 2</p></div>
+                <div class="item"><p>Item Name 3</p></div>
+              </td>
+              <td><strike>$40</strike></td>
+              <td>$35</td>
+              <td><button class="cta-btn">Add to Cart</button></td>
+            </tr>
+            <tr>
+              <td>Large</td>
+              <td>
+                <div class="item"><p>Item Name 1</p></div>
+                <div class="item"><p>Item Name 2</p></div>
+                <div class="item"><p>Item Name 3</p></div>
+              </td>
+              <td><strike>$50</strike></td>
+              <td>$45</td>
+              <td><button class="cta-btn">Add to Cart</button></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-section logo-section">
+          <img src="https://via.placeholder.com/150x50?text=ShopLogo" alt="Shop Logo" class="footer-logo" />
+        </div>
+        <div class="footer-section links-section">
+          <h3>Quick Links</h3>
+          <ul class="footer-links">
+            <li><a href="#menu">Our Menu</a></li>
+            <li><a href="#offers">Our Offers</a></li>
+            <li><a href="#about">Know What We Have Achieved</a></li>
+          </ul>
+        </div>
+        <div class="footer-section social-subscribe">
+          <h3>Wanna Get Updated with Our Exciting Offers?</h3>
+          <div class="social-links">
+            <p>Follow us on:</p>
+            <a href="#" class="social-link">Instagram</a> |
+            <a href="#" class="social-link">Facebook</a> |
+            <a href="#" class="social-link">Twitter</a>
+          </div>
+          <hr />
+          <div class="subscribe-form">
+            <input type="email" placeholder="Subscribe for daily exciting offers" />
+            <button type="button">Subscribe</button>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>
+          <a href="#terms">Terms & Conditions</a> |
+          <a href="#privacy">Privacy Policy</a> |
+          <a href="#reserved">All Rights Reserved</a>
+        </p>
+      </div>
+    </footer>
+    <script>
+      let foodItems = [];
+      async function fetchFoodItems() {
+        try {
+          const response = await fetch("fooditem.json");
+          if (!response.ok) throw new Error("Network response was not ok");
+          foodItems = await response.json();
+          populateMenu(foodItems);
+        } catch (error) {
+          console.error("There has been a problem with your fetch operation:", error);
+        }
+      }
+      function createMenuItem(item) {
+        return `
+          <div class="ourmenu-card">
+            <img src="${item.imageurl}" alt="${item.title}" onclick="redirecttoproductdetails(${item.id})">
+            <div class="menu-card-content">
+              <h4>${item.title}</h4>
+              <p>${item.description}</p>
+              <span>Price: <strike class="strike-price">$${item.actual_price.toFixed(2)}</strike> $${item.selling_price.toFixed(2)}</span>
+            </div>
+            <div class="add-to-cart-btn">
+              <button class="cta-button" onclick="addToCart(${item.id}, '${item.title}', ${item.selling_price}, '${item.imageurl}')">Add to Cart</button>
+            </div>
+          </div>`;
+      }
+      function populateMenu(foodItems) {
+        const categories = {
+          "best-seller": [],
+          trending: [],
+          starter: [],
+          beverages: [],
+          "main-course": []
+        };
+        foodItems.forEach((item) => {
+          if (item.best_seller === "yes") categories["best-seller"].push(item);
+          if (item.trending === "yes") categories["trending"].push(item);
+          categories[item.category.toLowerCase().replace(" ", "-")].push(item);
+        });
+        for (const category in categories) {
+          const categoryContainer = document.getElementById(category);
+          if (categoryContainer) {
+            const itemsHTML = categories[category].map(createMenuItem).join("");
+            categoryContainer.querySelector(".ourmenu-items").innerHTML = itemsHTML;
+          }
+        }
+      }
+      function addToCart(itemId, title, price, imageurl) {
+        let cart = JSON.parse(localStorage.getItem("cart")) || [];
+        const itemIndex = cart.findIndex((item) => item.id === itemId);
+        if (itemIndex > -1) {
+          cart[itemIndex].quantity += 1;
+        } else {
+          cart.push({ id: itemId, title, price, quantity: 1, imageurl });
+        }
+        localStorage.setItem("cart", JSON.stringify(cart));
+        showSuccessMessage(`${title} has been added to your cart!`);
+      }
+      function showSuccessMessage(message) {
+        const messageDiv = document.createElement("div");
+        messageDiv.classList.add("success-message");
+        messageDiv.textContent = message;
+        document.body.appendChild(messageDiv);
+        setTimeout(() => { messageDiv.remove(); }, 3000);
+      }
+      function redirecttoproductdetails(id) {
+        window.location.href = `product.html?id=${id}`;
+      }
+      document.addEventListener("DOMContentLoaded", fetchFoodItems);
+    </script>
+  </body>
+</html>
